@@ -10,6 +10,7 @@ namespace Sigma_LINQ
     {
         static void Main(string[] args)
         {
+            //Task1
 
             String string1 = "Davis, Clyne, Fonte, Hooiveld, Shaw, Davis, Schneiderlin, Cork, Lallana, Rodriguez, Lambert";
 
@@ -39,6 +40,7 @@ namespace Sigma_LINQ
             Console.WriteLine(str12);
             Console.ReadKey();
 
+            //Task2
 
             string players = "Jason Puncheon, 26/06/1986; Jos Hooiveld, 22/04/1983; Kelvin Davis,29 / 09 / 1976; Luke Shaw, 12 / 07 / 1995; Gaston Ramirez, 02 / 12 / 1990; Adam Lallana, 10 / 05 / 1988";
 
@@ -83,7 +85,7 @@ namespace Sigma_LINQ
             }
 
            
-
+            //Task3
 
             string songstring = "4:12,2:43,3:51,4:29,3:24,3:14,4:46,3:25,4:52,3:27";
             String[] songArr = songstring.Split(',');
