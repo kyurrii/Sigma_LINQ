@@ -30,6 +30,8 @@ namespace Sigma_LINQ
             }
 
             string sep2 = " ";
+
+            Console.WriteLine("Task1");
             foreach (string el in strArr11)
             {
 
@@ -38,7 +40,7 @@ namespace Sigma_LINQ
 
             String str12 = string.Join(sep2, strArr11, 0, strArrLength1);
             Console.WriteLine(str12);
-            Console.ReadKey();
+           
 
             //Task2
 
@@ -65,7 +67,7 @@ namespace Sigma_LINQ
                 Console.WriteLine("Key: {0}, Value: {1}", item.Key, item.Value);
             }       */
 
-            Console.ReadKey();
+           // Console.ReadKey();
 
             DateTime datenow = DateTime.Today;
 
@@ -78,7 +80,7 @@ namespace Sigma_LINQ
                 PlayerAge =( calcTime(datenow, s.Value).Days/365)
             }
                                            );
-
+            Console.WriteLine("Task2");
             foreach (var item in selectresult)
             {
                 Console.WriteLine("Name: {0}, BirthDate: {1}, Age: {2} ", item.PlayerName, item.PalyerBirthDate,item.PlayerAge);
@@ -105,8 +107,8 @@ namespace Sigma_LINQ
 
             int totalSoundDuration = songArrTime.Sum();
 
-
-            foreach(var item in songArrTime)
+            Console.WriteLine("Task3");
+            foreach (var item in songArrTime)
             {
                 Console.WriteLine(item);
             }
